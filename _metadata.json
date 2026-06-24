@@ -9,7 +9,7 @@
     "marketing"
   ],
   "language": "JavaScript",
-  "stars": 34821,
+  "stars": 34831,
   "license": "MIT",
   "defaultBranch": "main",
   "docsIncluded": [
@@ -57,6 +57,6 @@
       }
     ]
   },
-  "generatedAt": "2026-06-24T14:05:47.042Z",
-  "mitigatedAt": "2026-06-24T14:11:43.965Z"
+  "generatedAt": "2026-06-24T14:53:20.671Z",
+  "mitigatedAt": "2026-06-24T14:53:43.717Z"
 }

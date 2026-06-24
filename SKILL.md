@@ -9,7 +9,7 @@ description: Use when the user wants to use, integrate, configure, or build with
 
 **Repository:** https://github.com/coreyhaines31/marketingskills
 **Homepage:** https://marketing-skills.com
-**Language:** JavaScript  ·  **Stars:** 34821  ·  **License:** MIT
+**Language:** JavaScript  ·  **Stars:** 34831  ·  **License:** MIT
 **Topics:** claude, codex, marketing
 
 
