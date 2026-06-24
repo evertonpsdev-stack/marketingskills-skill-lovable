@@ -1,0 +1,62 @@
+{
+  "owner": "coreyhaines31",
+  "repo": "marketingskills",
+  "description": "Marketing skills for Claude Code and AI agents. CRO, copywriting, SEO, analytics, and growth engineering.",
+  "homepage": "https://marketing-skills.com",
+  "topics": [
+    "claude",
+    "codex",
+    "marketing"
+  ],
+  "language": "JavaScript",
+  "stars": 34821,
+  "license": "MIT",
+  "defaultBranch": "main",
+  "docsIncluded": [
+    "README.md",
+    "tools/clis/README.md",
+    "tools/composio/README.md",
+    "CLAUDE.md",
+    "AGENTS.md",
+    "CONTRIBUTING.md",
+    "VERSIONS.md",
+    "tools/REGISTRY.md",
+    ".github/PULL_REQUEST_TEMPLATE/documentation.md",
+    ".github/PULL_REQUEST_TEMPLATE/new-skill.md",
+    ".github/PULL_REQUEST_TEMPLATE/skill-update.md",
+    "skills/ab-testing/SKILL.md",
+    "skills/ad-creative/SKILL.md",
+    "skills/ads/SKILL.md",
+    "skills/ai-seo/SKILL.md",
+    "skills/analytics/SKILL.md",
+    "skills/aso/SKILL.md",
+    "skills/churn-prevention/SKILL.md",
+    "skills/co-marketing/SKILL.md",
+    "skills/cold-email/SKILL.md",
+    "skills/community-marketing/SKILL.md",
+    "skills/competitor-profiling/SKILL.md",
+    "skills/competitors/SKILL.md",
+    "skills/content-strategy/SKILL.md",
+    "skills/copy-editing/SKILL.md"
+  ],
+  "totalRepoFiles": 518,
+  "security": {
+    "risk": "clean",
+    "score": 0,
+    "filesScanned": 142,
+    "findings": [],
+    "summary": "Mitigado: 1 achado(s) neutralizado(s).",
+    "mitigated": true,
+    "originalFindings": [
+      {
+        "severity": "critical",
+        "category": "Env exfiltration pattern",
+        "path": "tools/clis/zoominfo.js",
+        "snippet": "process.env.ZOOMINFO_PRIVATE_KEY\n  if (!username || !password) {\n    throw new Error('ZOOMINFO_USERNAME and ZOOMINFO_PRIVATE_KEY required for authentication')\n ",
+        "why": "Lê variáveis de ambiente e envia por HTTP — padrão clássico de roubo de credenciais."
+      }
+    ]
+  },
+  "generatedAt": "2026-06-24T14:05:47.042Z",
+  "mitigatedAt": "2026-06-24T14:11:43.965Z"
+}
